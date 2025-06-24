@@ -20,6 +20,10 @@ corresponding `SRAW` signal as well as some additional internal states such as u
 states, the algorithm converts the raw signals in ticks into either VOC or NOx Index, respectively, and applies an adaptive
 low-pass filter.
 
+Further Information:
+- [What is Sensirion's NOx Index?](http://www.sensirion.com/resource/application_note/nox_index)
+- [What is Sensirion's VOC Index?](http://www.sensirion.com/resource/application_note/voc_index)
+
 # Quick Start
 
 Steps to calculate a VOC/NOx gas index value:
