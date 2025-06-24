@@ -9,7 +9,7 @@ jobs:
     runs-on: "ubuntu-22.04"
     steps:
       - uses: actions/checkout@v4
-      - uses: awalsh128/cache-apt-pkgs-action@a6c3917cc929dd0345bfb2d3feaf9101823370ad
+      - uses: awalsh128/cache-apt-pkgs-action@v1.4.3
         with:
           packages: clang-format
           version: 1.0
